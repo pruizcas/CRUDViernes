@@ -1,4 +1,6 @@
 package com.example.crudviernes.ad;
 
-public interface AdRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AdRepository extends JpaRepository<Ad, Long> {
 }

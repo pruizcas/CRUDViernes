@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.security.Timestamp;
 
 @Entity
 
@@ -17,7 +18,7 @@ public class Ad {
     private Timestamp dateTime;
     private int maxParticipants;
 
-public Event(){
+public Ad(){
 
 }
 
